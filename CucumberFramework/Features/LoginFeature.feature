@@ -26,3 +26,4 @@ Examples:
 |email|password|
 |admin@yourstore.com|admin|
 |admin@yourstor.com|admin|
+|admin@yourstore.co|admin|
