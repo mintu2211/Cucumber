@@ -61,12 +61,20 @@ public class StepDefi {
 		}
 	}
 
+	//@When("user click on Log Out")
+	//public void user_click_on_log_out() {
+
+	//loginpg.logoutpage();
+	
+	//}
+
 	@When("user click on Log Out")
 	public void user_click_on_log_out() {
 
 	loginpg.logoutpage();
+	
 	}
-
+	
 	@Then("close browser")
 	public void close_browser() {
 		driver.close();

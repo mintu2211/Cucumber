@@ -14,7 +14,8 @@ import io.cucumber.junit.CucumberOptions;
 		//feature file and step defination file ki mapping hoti h ye check karta hai sare 
 		//ye check karega feature file main jitne bhi step hai unke liye humne implementation method create kiya hai ya nahi
 		monochrome = true,
-		plugin = {"pretty"}
+		plugin = {"pretty","html:target/cucumber-reports/reports1.html"}
+		//this is used to generate reports in cucumber
 		)
 
 
